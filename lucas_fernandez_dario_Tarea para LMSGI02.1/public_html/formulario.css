@@ -1,0 +1,111 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 11 nov 2024, 22:34:08
+    Author     : montb
+*/
+/* Fondo de la página */
+body {
+    background-image: url('images/fondo_beige.png');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+/* Logo y encabezado */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+header img {
+    width: 100px; /* Ajusta el tamaño del logo */
+    margin-right: 10px;
+}
+
+header h1 {
+    color: #333;
+}
+
+/* Sección del formulario */
+#formulario {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#formulario h2 {
+    color: #333;
+}
+
+#formulario label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#formulario input[type="text"],
+#formulario input[type="email"],
+#formulario input[type="date"],
+#formulario input[type="time"],
+#formulario input[type="number"],
+#formulario select {
+    background-color: #004d00; /* Verde oscuro */
+    color: white;
+    border: none;
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 60%; /* Ajusta el ancho */
+    border-radius: 5px;
+}
+
+#formulario input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Áreas de texto blancas */
+#formulario textarea {
+    background-color: white;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 90%; /* Ajusta el ancho */
+    border-radius: 5px;
+}
+
+/* Botones Enviar y Limpiar */
+#formulario button[type="submit"],
+#formulario button[type="reset"] {
+    background-color: #66ff66; /* Verde claro */
+    color: #004d00;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#formulario button[type="submit"]:hover,
+#formulario button[type="reset"]:hover {
+    background-color: #55e655;
+}
+
+/* Fieldset para Fecha y Hora */
+fieldset {
+    border: 1px solid #004d00;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+legend {
+    color: #004d00;
+    font-weight: bold;
+}
+

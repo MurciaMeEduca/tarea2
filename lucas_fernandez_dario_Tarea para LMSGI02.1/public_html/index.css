@@ -1,0 +1,93 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 11 nov 2024, 22:57:36
+    Author     : montb
+*/
+/* Fondo general de la página */
+body {
+    background-image: url('images/fondo_beige.png');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo del header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+header img {
+    width: 80px;
+    margin-right: 10px;
+}
+
+header h1 {
+    color: #333;
+}
+
+/* Menú de navegación en disposición vertical, alineado a la izquierda */
+nav {
+    position: absolute;
+    top: 100px; /* Ajusta según necesites para que quede bajo el header */
+    left: 20px; /* Alinea a la izquierda */
+    text-align: left;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+nav ul li a {
+    display: inline-block;
+    width: 150px; /* Ajusta el ancho según prefieras */
+    padding: 10px 20px;
+    background-color: white;
+    color: #333;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #f0f0f0;
+    border-color: #ccc;
+}
+
+/* Ajuste del iframe y sección de contenido */
+section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 200px; /* Espacio para que el contenido no se superponga con el menú */
+}
+
+iframe {
+    width: 80vw; /* 90% del ancho de la ventana */
+    height: 80vh; /* 80% de la altura de la ventana */
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-top: 1px solid #ddd;
+    color: #333;
+}
+
+
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IAX Actividades Extraescolares - Listado</title>
+    <link rel="stylesheet" href="listado.css">
+</head>
+<body>
+    <header>
+        <img src="images/iax_logo.png" alt="Logo IAX">
+        <h1>IAX Actividades Extraescolares - Listado</h1>
+    </header>
+    
+    <!-- Filtros -->
+    <section id="filtros">
+        <h2>Filtros</h2>
+        <form>
+            <label for="profesor">Nombre Profesor Responsable:</label>
+            <input type="text" id="profesor" name="profesor">
+
+            <label for="tituloActividad">Título de la Actividad:</label>
+            <input type="text" id="tituloActividad" name="tituloActividad">
+
+            <label for="pendiente">Pendiente de Validar:</label>
+            <input type="checkbox" id="pendiente" name="pendiente">
+
+            <label for="fechaDesde">Fecha Desde:</label>
+            <input type="date" id="fechaDesde" name="fechaDesde">
+
+            <label for="fechaHasta">Fecha Hasta:</label>
+            <input type="date" id="fechaHasta" name="fechaHasta">
+            
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </form>
+    </section>
+
+    <!-- Listado de actividades propuestas -->
+    <section id="listado">
+        <h2>Listado de Actividades Propuestas</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Pdte. Validar</th>
+                    <th>Nombre Prof. Resp.</th>
+                    <th>Título/Denominación de la Actividad</th>
+                    <th>Departamento</th>
+                    <th>Fecha/Hora Inicio/Salida</th>
+                    <th>Fecha/Hora Fin/Llegada</th>
+                    <th>Lugar de Realización</th>
+                    <th>Grupos Implicados</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="checkbox" name="validar1"></td>
+                    <td>Profesor 1</td>
+                    <td>Actividad 1</td>
+                    <td>Departamento 1</td>
+                    <td>01/01/2024 08:30</td>
+                    <td>01/01/2024 12:30</td>
+                    <td>Lugar 1</td>
+                    <td>Grupo 1</td>
+                    <td><button>Editar</button></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="validar2"></td>
+                    <td>Profesor 2</td>
+                    <td>Actividad 2</td>
+                    <td>Departamento 2</td>
+                    <td>02/02/2024 09:00</td>
+                    <td>02/02/2024 13:00</td>
+                    <td>Lugar 2</td>
+                    <td>Grupo 2</td>
+                    <td><button>Editar</button></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="validar3"></td>
+                    <td>Profesor 3</td>
+                    <td>Actividad 3</td>
+                    <td>Departamento 3</td>
+                    <td>03/03/2024 10:00</td>
+                    <td>03/03/2024 14:00</td>
+                    <td>Lugar 3</td>
+                    <td>Grupo 3</td>
+                    <td><button>Editar</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
+
+
+
